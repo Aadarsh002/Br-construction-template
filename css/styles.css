@@ -1,0 +1,136 @@
+/*navbar css control*/
+.navbar{
+  border-bottom: 3px solid #ddd;
+}
+.navbar-nav .nav-item .nav-link{
+  font-weight: 600;
+  margin-left: 10px;
+  padding:10px 20px;
+
+}
+.navbar-brand{
+  letter-spacing: 0.3rem;
+  padding: 10px 20px;
+}
+.navbar-nav .nav-item .nav-link:hover,.navbar-brand:hover{
+  background-color: #ddd;
+
+}
+/*image section*/
+#image{
+  text-align: center;
+  margin: 0 8%;
+  margin-bottom: 5%;
+}
+.img-sm{
+  width: 100%;
+}
+.br-architech{
+  position: absolute;
+  z-index: 1;
+  margin: 23% 36%;
+  color: white;
+  letter-spacing: 0.5rem;
+}
+.span1{
+  background-color: black;
+  opacity: 0.9;
+  padding: 3px 5px;
+}
+
+/*project section*/
+#Projects{
+  margin: 0 8%;
+}
+.row-custom{
+  margin: 1% 0;
+}
+.container-fluid1{
+  padding: 0;
+}
+.photo{
+  width: 100%;
+}
+.photo-div{
+  padding: 1%;
+}
+hr{
+  height: 1px;
+}
+.summer-house{
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+}
+
+/*about section*/
+#about{
+  margin: 0 8%;
+}
+.about-heading{
+  margin-top: 5%;
+}
+
+.btn-color{
+  background-color: #eee;
+}
+h6{
+  font-weight: lighter;
+}
+.about-grid{
+  margin-bottom: 2%;
+}
+
+
+/*contact section*/
+#contact{
+  margin: 0 8%;
+}
+.contact-heading{
+  margin-top: 3%;
+}
+.form-input{
+  width: 100%;
+  padding: 0.5% 0 1% 0.5%;
+  margin-bottom: 1%;
+}
+.btn{
+  margin-top: 1%;
+  border-radius: 0;
+}
+.btn:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+/*map section*/
+#map{
+  margin: 0 8%;
+}
+.map-photo{
+  width: 100%;
+  margin: 4% 0;
+}
+
+/*footer section*/
+#footer{
+  background-color: black;
+  text-align: center;
+}
+.pfooter{
+  color: #7b8;
+  padding: 3% 0;
+}
+.a-pfooter{
+  color: #ddd;
+}
+.a-pfooter:hover{
+  color: #fff;
+}
+
+@media only screen and (max-width:600px) {
+  #image{
+    margin: 0;
+  }
